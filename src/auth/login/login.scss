@@ -1,0 +1,70 @@
+.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://thumbs.dreamstime.com/b/fitness-background-sneakers-dumbbells-headphones-pink-table-top-view-copy-space-179474357.jpg");
+    background-size: cover;
+    
+   
+}
+.loginform
+{   width: 300px;
+    height:350px;    
+    margin-top: 20px;
+    background:linear-gradient(#000000,#5391C6);
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 0 10px 0 #000;
+}
+
+.loginform>input{
+    padding: 10px;
+    width: 202px;
+  
+    margin-left: 34px;
+   
+}
+.loginbutton{
+    margin-top: -40px;
+    background-color:#5391C6;    
+    cursor: pointer;
+    color: white; 
+    width:66px;
+    height: 34px;
+    margin-left: 65%;
+    
+}
+.linkhome{
+    margin-top: -36px;
+}
+.signupbtn{
+    width:66px;
+    margin-top: 26px;
+    margin-left: 40px;
+    height: 34px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.logintitle{
+font-size: 50px;
+}
+.email{
+    margin : 10px 30px;
+    margin-top: 58px;
+    color: white;
+}
+.password,.forget{
+    margin: 10px 30px;
+    margin-top: 24px;
+    color: white;
+}
+.icon{
+    cursor: pointer;
+    margin-top: -9%;
+    margin-left: 78%;
+
+}
